@@ -4,15 +4,6 @@ Illustrates inheritance of class properties in CSS
 
 No CSS doesn't have any way to inherit styles. But there are several ways you can share styles. Here are a few examples:
 
-Using multiple classes
-
-<p class="first all">Some text</p>
-<p class="all">More text</p>
-<p class="last all">Yet more text</p>
-
-p.all { font-weight: bold }
-p.first { color: red; }
-p.last { color: blue; }
 
 Use the comma operator in your styles
 
@@ -23,6 +14,17 @@ Use the comma operator in your styles
 p.first, p.middle, p.last { font-weight: bold }
 p.first { color: red; }
 p.last { color: blue; }
+
+Using multiple classes
+
+<p class="first all">Some text</p>
+<p class="all">More text</p>
+<p class="last all">Yet more text</p>
+
+p.all { font-weight: bold }
+p.first { color: red; }
+p.last { color: blue; }
+
 
 Using container elements
 
